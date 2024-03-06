@@ -539,6 +539,230 @@ PRICING SECTION
     text-align: center;
 }
 
+.pricing__packages {
+    display: flex;
+    margin-top: 56px;
+}
 
+.pricing__package {
+    width: calc(100%/3);
+    box-shadow: 0px 2px 3px rgb(225,225,225 );
+    border-radius: 8px;
+    margin: 0px 16px
+}
 
+.box__highlight {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
 
+.pricing__box--header {
+    border: 1px solid rgb(226, 232, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0;
+    
+}
+
+.pricing__name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: rgb(26, 32, 44);
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 78px;
+    color: rgb(26, 32, 44);
+}
+
+.price__rate {
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 26px;
+    color: rgb(160, 174, 192);
+}
+
+.pricing__box--subheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(226, 232, 240);
+}
+
+.pricing__subheader--name {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: rgb(26, 32, 44);
+    padding-top: 24px;
+}
+
+.pricing__subheader--lists {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.pricing__subheader--list {
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 0;
+    color: rgb(113, 128, 150);
+}
+
+.pricing__button--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(226,232,240);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 36px 0;    
+}
+
+.pricings__button {
+    padding: 18px 54px;
+    border: none;
+    border-radius: 9999px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
+}
+
+.business__package {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.white {
+    color: white;
+}
+
+.box__highlight--blue {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.business__box--header {
+    border: 1px solid rgb(102, 126, 234);
+}
+
+.business__btn {
+    background: white;
+    color: rgb(100, 21, 255);
+}
+
+.box__highlight--pink {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%)
+}
+
+.enterprise__btn {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+/* 
+
+TESTIMONIAL SECTION 
+
+*/ 
+
+#Testimonials {
+    padding: 80px 0;
+}
+
+.testimonial__container {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__description--container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+    width: 100%;
+    max-width: 50%;
+}
+
+.test__heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial__img--wrapper {
+    width: 100%;
+    max-width: 50%;
+}
+
+.testimonial__header {
+    padding: 16px 0;
+}
+
+.testimonial__rating {
+    margin-top: 16px;
+}
+
+.star__wrapper {
+    display: flex;
+    padding: 24px 0 16px 0;
+}
+
+.star {
+    color: rgb(246, 173, 85);
+    padding-right: 4px;
+}
+
+.testimonial__rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial__subheader {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(36, 62, 99);
+    padding: 0px 0px 24px 0;
+}
+
+.testimonial__para {
+    font-weight: 500;
+    line-height: 26px;
+    color: rgb(74, 85, 104);
+}
+
+.photo__name {
+    display: flex;
+    align-items: center;
+}
+
+.ratings__img--wrapper{
+    width: 100%;
+    max-width: 80px;
+    padding-top: 24px;
+    padding-right: 16px;
+}
+
+.ratings__img {
+    border-radius: 9999px;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+
+.subname {
+    color: rgb(124, 139, 161);
+    font-weight: 500;
+}
+
+.char {
+    padding: 0;
+}
