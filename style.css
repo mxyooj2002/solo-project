@@ -412,3 +412,133 @@ Services Section
     width: 100%;
     max-width: 340px;
  }
+
+ /* 
+
+ VALUES SECTION 
+
+ */ 
+
+ #Values {
+    padding: 80px 0;
+ }
+
+ .values__section--container {
+    display: flex;
+ }
+
+ .values__description {
+    width: 100%;
+    max-width: 50%;
+    padding-right: 36px;
+ }
+
+.values__heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.values__header {
+    line-height: normal;
+    padding: 24px 0 32px 0;
+}
+
+.values__subheadings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+.values__subheading--a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 50%;
+    
+}
+
+.affordable__title--icon {
+    display: flex;
+    align-items: center;
+}
+
+.values__subheading--p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 50%;
+    
+}
+
+.subheader__icon--container {
+    background-color: rgb(123 230 180);
+    color: rgb(39 103 73 );
+    width: 100%;
+    max-width: 36px;
+    padding: 10px 10px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.subheader__icon--container2 {
+    background-color: rgb(254 178 178);
+    color: rgb(155 44 44 );
+    width: 100%;
+    max-width: 36px;
+    padding: 10px 10px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    
+}
+
+.subheader__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(36, 62, 99);
+}
+
+.subheading__para {
+    padding-right: 8px;
+    padding-top: 8px;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(113, 128, 150);
+}
+
+/* 
+
+PRICING SECTION 
+
+*/ 
+ #Pricings {
+    padding: 80px 0;
+ }
+
+.pricing__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing__header {
+    padding: 16px 0;
+}
+
+.pricing__para {
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+}
+
+
+
+
