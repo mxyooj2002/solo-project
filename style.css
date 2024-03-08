@@ -25,6 +25,7 @@ a {
     text-decoration: none;
 }
 
+
 .section__titles {
     font-size: 16px;
     font-weight: 700;
@@ -746,7 +747,7 @@ TESTIMONIAL SECTION
     width: 100%;
     max-width: 80px;
     padding-top: 24px;
-    padding-right: 16px;
+    margin-right: 24px;
 }
 
 .ratings__img {
@@ -756,6 +757,7 @@ TESTIMONIAL SECTION
 .names {
     display: flex;
     flex-direction: column;
+    padding-top: 8px;
 }
 
 .subname {
@@ -765,4 +767,167 @@ TESTIMONIAL SECTION
 
 .char {
     padding: 0;
+    padding-bottom: 8px;
+}
+
+/* 
+
+NEW SECTION 
+
+*/ 
+
+#treact__buttons--section {
+    padding: 80px 0;
+}
+
+.treact__buttons--container {
+    background-color: rgb(100, 21, 255);
+    padding: 96px 0;
+    border-radius: 8px;
+}
+
+.treact__header--buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 56px;
+    
+}
+
+.seperator {
+    width: 100%;
+    max-width: 50%;
+    padding-right: 16px;
+    padding-left: 48px;
+}
+
+.develop__header {
+    font-size: 28px;
+    line-height: 36px;
+    color: white;
+    font-weight: 700;
+}
+
+.develop__buttons {
+    padding-left: 48px;
+    width: 100%;
+    max-width: 50%;
+}
+
+.g--button {
+    padding: 24px 48px;
+    border: none;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(245, 101, 101);
+    margin-right: 36px;
+}
+
+.c-btn {
+    background-color: transparent;
+    border: 1px solid rgb(203, 213, 224);
+}
+
+/* 
+
+FOOTER 
+
+*/ 
+
+footer {
+    background-color: rgb(100, 21, 255);
+    height: 90vh;
+    margin-top: 60px;
+}
+
+.footer__container {
+    padding: 80px 0 48px 0;
+}
+
+.footer__links--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links--list {
+    text-align: left;
+}
+
+.footer__links--title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    
+}
+
+.footer__links {
+    margin-top: 16px;
+}
+
+.footer__link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: white;
+    padding: 8px 0;
+}
+
+.footer__logo-img--container {
+    padding-right: 16px;
+}
+
+.footer__bottom {
+    padding: 64px 0;
+    border-top: 1px solid rgb(102, 126, 234);
+}
+
+.footer__bottom--links {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    width: 100%;
+    max-width: 36px;
+}
+
+.footer__logo--title {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: white;
+}
+
+.footer__logo--container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(203, 213, 224);
+}
+
+
+
+.brand__logo {
+    padding: 8px 8px 8px 8px;
+    border: none;
+    border-radius: 9999px;
+    background: white;
+    margin: 0 8px;
+
+}
+
+
+
+@media {
+    
 }
