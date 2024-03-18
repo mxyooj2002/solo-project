@@ -142,17 +142,78 @@ nav {
     background-color: rgb(85, 24, 203, 0.993);
 }
 
-.burger__menu {
-    font-size: 24px;
-    color: rgb(36, 62, 99);
-    display:none;
-}
+
 
 .burger__menu--btn {
     border: none;
     background: none;
     display: none;
+    font-size: 24px;
+    color: rgb(36, 62, 99);
+    display:none;
+    transition: all 300ms ease;
 }
+
+.burger__menu--btn:hover {
+    color: rgb(100, 21, 255);
+}
+
+.menu__backdrop {
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0px;
+    width: 90vw;
+    z-index: 100;
+    margin: 24px;
+    padding: 24px 0;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    
+}
+
+.menu--open .menu__backdrop {
+    display: flex;
+}
+
+.btn__menu--close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: all 300ms ease;
+}
+
+.btn__menu--close:hover {
+    color: rgb(100, 21, 255);
+}
+
+
+
+.menu--list {
+    padding: 14px 0;
+}
+
+.menu--link {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(26, 32, 44);
+    transition: all 300ms ease;
+    
+}
+
+.menu--link:hover {
+    text-decoration: underline;
+    color: rgb(100, 21, 255);
+
+}
+
+
 
 
 
